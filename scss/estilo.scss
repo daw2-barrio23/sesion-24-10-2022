@@ -1,0 +1,25 @@
+// esto es scss
+
+//variables
+$primario: #444444;
+$secundario: #aaaaaa;
+$tamano: 20px;
+body{
+    background-color: $secundario;
+    color: $primario;
+}
+p{
+    font-size: $tamano;
+}
+//mixins
+
+ul{
+    background-color: blue;
+    padding: 20px;
+    li{
+        background-color: $secundario;
+        &:hover{
+            font-size: $tamano*2;
+        }
+    }
+}
